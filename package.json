@@ -1,0 +1,32 @@
+{
+  "name": "mra0101",
+  "version": "1.0.0",
+  "description": "My personal npx card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MR-A0101/mra0101.git"
+  },
+  "keywords": [
+    "NPM",
+    "npx",
+    "card",
+    "node"
+  ],
+  "author": "MR-A",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MR-A0101/mra0101/issues"
+  },
+  "homepage": "https://github.com/MR-A0101/mra0101#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "inquirer": "^8.1.0",
+    "open": "^8.2.0"
+  }
+}
