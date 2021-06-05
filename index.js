@@ -12,7 +12,7 @@ clear();
 
 const prompt = inquirer.createPromptModule();
 
-// Questions after the card 
+// Questions after the card
 const questions = [
     {
         type: "list",
@@ -22,7 +22,7 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:mra@gmail.com");
+                    open("mailto:harshsinhawoohp@gmail.com");
                     console.log("\nDone, see you soon.\n");
                 }
             },
@@ -98,8 +98,8 @@ const tip = [
     '',
 ].join("\n");
 
-// Show the tip 
+// Show the tip
 console.log(tip);
 
-// Ask the Inquirer questions. 
+// Ask the Inquirer questions.
 prompt(questions).then(answer => answer.action());
